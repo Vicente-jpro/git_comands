@@ -9,8 +9,13 @@ Aqui estão os comandos mais importantes do Git para usar no terminal, com uma b
 - **`git config --global user.email "seuemail@dominio.com"`**  
   Define o email para o Git.
 
+- **`git config --global init.defaultBranch master`**  
+  Define o nome da tua branch que serão criadas inicialmente como master.
+
 - **`git config --list`**  
   Lista todas as configurações do Git.
+
+
 
 ### 2. **Criação e clonagem de repositórios**
 - **`git init`**  
