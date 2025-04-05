@@ -22,7 +22,6 @@ Aqui estão os comandos mais importantes do Git para usar no terminal, com uma b
   Lista todas as configurações do Git.
 
 
-
 ### 2. **Criação e clonagem de repositórios**
 - **`git init`**  
   Inicializa um novo repositório Git no diretório atual.
@@ -127,4 +126,24 @@ Aqui estão os comandos mais importantes do Git para usar no terminal, com uma b
 - **`git clean -fd`**  
   Remove arquivos não rastreados do diretório de trabalho (arquivos não versionados).
 
-Esses são os comandos principais para gerenciar repositórios Git no terminal! Se precisar de mais detalhes sobre algum deles, é só falar!
+# Criação de ssh key
+Neste tutorial ensinarei como criar uma key `ssh` para o teu repositório remoto.
+
+Cria uma masta para 
+```sh
+  mkdir ~/ssh
+```
+Navega para o diretório `~/ssh` possivelmente o nome do diretório será `.ssh`. 
+Executa o comando abaixo.
+
+```sh
+  ssh-keygen.exe
+```
+
+Após executar o comandos `ssh-keygen.exe` automaticamente vai criar dois ficheiros com os nomes: `id_ed25519` e `id_ed25519.pub`
+vamos usar o ficheiro  `id_ed25519.pub`
+```sh
+cat id_ed25519.pub
+```
+Este comando vai permitir ver o conteúdo da key pública. cópia e cola no teu `Github/GitLab`.
+Você é inteligente. Vais descobrir onde deves colar
