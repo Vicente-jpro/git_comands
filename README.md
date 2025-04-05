@@ -140,7 +140,8 @@ Executa o comando abaixo.
   ssh-keygen.exe
 ```
 
-Após executar o comandos `ssh-keygen.exe` automaticamente vai criar dois ficheiros com os nomes: `id_ed25519` e `id_ed25519.pub`
+Após executar o comandos `ssh-keygen.exe` vai pedir-te a password, clica duas vezes `Enter` ou coloca a password e clica `Enter`. 
+Automaticamente vai criar dois ficheiros com os nomes: `id_ed25519` e `id_ed25519.pub`
 vamos usar o ficheiro  `id_ed25519.pub`
 ```sh
 cat id_ed25519.pub
