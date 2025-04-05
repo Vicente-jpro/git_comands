@@ -12,6 +12,12 @@ Aqui estão os comandos mais importantes do Git para usar no terminal, com uma b
 - **`git config --global init.defaultBranch master`**  
   Define o nome da tua branch que serão criadas inicialmente como master.
 
+
+- **`git config --global alias.co checkout`**  
+
+- **`git config --global push.default matching`**  
+  Define o push para todas as branches locais que tem o mesmo nome com a remota.
+  
 - **`git config --list`**  
   Lista todas as configurações do Git.
 
