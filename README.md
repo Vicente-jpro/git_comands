@@ -82,6 +82,9 @@ Aqui estão os comandos mais importantes do Git para usar no terminal, com uma b
 - **`git remote add origin <url-do-repositorio>`**  
   Adiciona um repositório remoto.
 
+- **`  git remote -v`**  
+  Verificar se o repositório remoto foi adicionado.
+
 - **`git push origin <nome-do-branch>`**  
   Envia as alterações locais para o repositório remoto no branch especificado.
 
