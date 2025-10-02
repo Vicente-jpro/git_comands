@@ -107,6 +107,10 @@ Aqui estão os comandos mais importantes do Git para usar no terminal, com uma b
 - **`git rebase`**  
   Reaplica commits a partir de um branch base diferente, muitas vezes usado para evitar merges desnecessários.
 
+- **`git rebase <branch-name>`**  
+  Aplica seus commits no topo da main atualizada.
+  
+
 - **`git rebase --continue`**  
   Continua o processo de rebase após resolver conflitos.
 
