@@ -109,7 +109,12 @@ Aqui estão os comandos mais importantes do Git para usar no terminal, com uma b
 
 - **`git rebase <branch-name>`**  
   Aplica seus commits no topo da `branch-name` atualizada.
+  Caso de uso:
+  Estas a trabalhar na branch `sprint-30` e fizeste um marge request para `main`.
+  A branch `main` tem varios commites adiantado. Entao, queremos atualizar a nossa branch `sprint-30`
+  e colocar o nosso commit no top de todos os commits.
   
+    
 
 - **`git rebase --continue`**  
   Continua o processo de rebase após resolver conflitos.
