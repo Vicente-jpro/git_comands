@@ -119,7 +119,48 @@ Aqui estão os comandos mais importantes do Git para usar no terminal, com uma b
 - **`git rebase --continue`**  
   Continua o processo de rebase após resolver conflitos.
 
-### 9. **Outros comandos úteis**
+
+  ### 9. **Unir os commits e confirmando alterações**
+
+O comando correto é **`git rebase -i HEAD~4`** (com **`-i` minúsculo**).
+O **`-I` maiúsculo não é uma opção válida**.
+
+### O que esse comando faz
+
+```bash
+git rebase -i HEAD~4
+```
+
+* Abre o **rebase interativo** dos **últimos 4 commits** da branch atual.
+* Permite **editar o histórico** desses commits.
+
+### O que você pode fazer no modo interativo
+
+Na lista que aparece, você pode:
+
+* `pick` → manter o commit
+* `reword` → mudar a mensagem
+* `edit` → alterar o conteúdo
+* `squash` / `fixup` → unir commits
+* `drop` → remover commits
+
+### Quando usar
+
+* Organizar commits antes de subir para o repositório
+* Unir commits pequenos
+* Corrigir mensagens ou remover commits desnecessários
+
+⚠️ **Atenção:** não use rebase interativo em commits que já foram enviados para um repositório compartilhado, pois ele reescreve o histórico.
+
+  
+  ### 11. **Applicar um comite desejado para branch atual**
+  
+- **`git cherry-pick <hash-do-commit>`**  
+ Aplique o commit desejado usando o na branch atual.
+
+  
+
+### 12. **Outros comandos úteis**
 - **`git stash`**  
   Guarda temporariamente mudanças não comitadas (útil para mudar de branch sem perder alterações).
 
