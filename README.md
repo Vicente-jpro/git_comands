@@ -2,6 +2,13 @@
 
 Aqui estão os comandos mais importantes do Git para usar no terminal, com uma breve descrição de cada um:
 
+Push an existing repository from the command line
+```sh
+git remote add origin https://github.com/Vicente-jpro/angularapp.git
+git branch -M main
+git push -u origin main
+```
+
 ### 1. **Configuração inicial**
 - **`git config --global user.name "Seu Nome"`**  
   Define o nome de usuário para o Git.
