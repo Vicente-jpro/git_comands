@@ -4,7 +4,7 @@ Aqui estão os comandos mais importantes do Git para usar no terminal, com uma b
 
 Push an existing repository from the command line
 ```sh
-git remote add origin https://github.com/Vicente-jpro/angularapp.git
+git remote add origin <url-repository>
 git branch -M main
 git push -u origin main
 ```
