@@ -24,6 +24,9 @@ git push -u origin main
 
 - **`git config --global push.default matching`**  
   Define o push para todas as branches locais que tem o mesmo nome com a remota.
+
+- **`git config --global core.editor "code --wait" `** 
+  Congigura o VSCode como editor 
   
 - **`git config --list`**  
   Lista todas as configurações do Git.
